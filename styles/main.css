@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat';
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content:  space-evenly;
+    align-items: center;
+    height: 100px;
+    background: rgb(110,13,255);
+    background: -moz-linear-gradient(18deg, rgba(110,13,255,1) 0%, rgba(125,5,172,1) 100%);
+    background: -webkit-linear-gradient(18deg, rgba(110,13,255,1) 0%, rgba(125,5,172,1) 100%);
+    background: linear-gradient(18deg, rgba(110,13,255,1) 0%, rgba(125,5,172,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6e0dff",endColorstr="#7d05ac",GradientType=1);
+    border-bottom: 1px solid #000 ;
+    color: aliceblue;
+}
+
+body {
+    background-color: aliceblue;  
+}
+
+#logo {
+    height: 180px;
+    width: 180px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Alinha .left e .right ao lado um do outro */
+    margin-top: 10px; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;    
+}
+
+h2, #combinacoes, #relatorio {
+    margin-top: 8px;
+}
+
+.right {
+    display: flex;
+    margin-left: 10px;        
+}
+
+.left {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 4%;
+    width: 500px;
+    align-items: center;
+    background-color: snow;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+#gerButton {
+    font-size:19px;
+    font-family:Arial;
+    width:88px;
+    height:35px;
+    border-width:1px;
+    color:#ffffff;
+    border-color:#6e0dff;
+    font-weight:bold;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    text-shadow:inset 0px 1px 0px #6e0dff;
+    background:#6e0dff;
+    cursor: pointer;
+    margin-top: 8px;
+}
+  
+ #gerButton:hover {
+    background: #a20dbd
+}
+
+
+
+                
